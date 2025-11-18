@@ -91,7 +91,7 @@ body{
 #nav-menu li a:hover::after{width:100%}
 
 /* Hamburger */
-.hamburger{display:none;cursor:pointer;flex-direction:column;gap:6px;padding:8px;border-radius:6px;transition:background-color var(--transition-speed)}
+.hamburger{margin-left: 120px;display:none;cursor:pointer;flex-direction:column;gap:6px;padding:8px;border-radius:6px;transition:background-color var(--transition-speed)}
 .hamburger span{display:block;width:26px;height:3px;background:var(--primary-color);transition:transform .3s ease,opacity .2s ease;border-radius:2px}
 .hamburger:hover{background-color:rgba(30,58,138,0.08)}
 
@@ -116,8 +116,7 @@ body{
 /* HERO (from dashboard + galeri) */
 .hero {
     background: 
-        linear-gradient(135deg, rgba(44,62,80,0.8) 0%, rgba(52,73,94,0.9) 100%),
-        url('{{ Vite::asset("resources/images/wongnyeni.jpeg") }}') no-repeat center center fixed;
+        linear-gradient(135deg, rgba(44,62,80,0.8) 0%, rgba(52, 73, 94, 0.822) 100%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -148,7 +147,7 @@ body{
 .stat-label{color:var(--text-light);font-size:0.9rem}
 
 /* PROMO / ACTIVITY CARDS */
-.promo-section{margin:60px 0}
+.promo-section{margin:140px}
 .promo-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px}
 .promo-card{background:var(--white);border-radius:var(--border-radius);overflow:hidden;box-shadow:var(--box-shadow);transition:var(--transition);border:1px solid var(--light-bg)}
 .promo-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-medium);border-color:var(--primary)}

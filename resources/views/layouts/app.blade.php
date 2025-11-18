@@ -77,7 +77,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Tiga Putra Persada Meat Shop. Semua hak dilindungi undang-undang.</p>
+                <p>&copy; 2025 Karang Taruna Taruna Madya Desa Sanggung.</p>
             </div>
         </div>
     </footer>

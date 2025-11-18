@@ -78,7 +78,7 @@
                     <p class="testimonial-text">"Karang Taruna memberikan wadah yang sangat baik untuk mengembangkan potensi diri dan berkontribusi untuk masyarakat."</p>
                     <div class="testimonial-author">
                         <div class="author-img">
-                            <img src="https://via.placeholder.com/50" alt="Budi Utomo">
+                            <img src="{{ Vite::asset('resources/images/wayangan1.jpg') }}" alt="Budi Utomo">
                         </div>
                         <div class="author-info">
                             <h4>Budi Utomo</h4>
@@ -88,23 +88,24 @@
                 </div>
 
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"Melalui kegiatan Karang Taruna, saya bisa belajar banyak hal baru dan memperluas jaringan pertemanan."</p>
+                    <p class="testimonial-text">"Karang Taruna memberikan wadah yang sangat baik untuk mengembangkan potensi diri dan berkontribusi untuk masyarakat."</p>
                     <div class="testimonial-author">
                         <div class="author-img">
-                            <img src="https://via.placeholder.com/50" alt="Siti Rahayu">
+                            <img src="{{ Vite::asset('resources/images/logokartar.jpg') }}" alt="Budi Utomo">
                         </div>
                         <div class="author-info">
-                            <h4>Siti Rahayu</h4>
-                            <p>Ketua Divisi Sosial</p>
+                            <h4>Taufiq Fadhly</h4>
+                            <p>Anggota Aktif</p>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="testimonial-card">
                     <p class="testimonial-text">"Program-program Karang Taruna sangat bermanfaat untuk pengembangan keterampilan dan kepemimpinan pemuda."</p>
                     <div class="testimonial-author">
                         <div class="author-img">
-                            <img src="https://via.placeholder.com/50" alt="Ahmad Prayoga">
+                            <img src="{{ Vite::asset('resources/images/wongnyeni.jpeg') }}" alt="Ahmad Prayoga">
                         </div>
                         <div class="author-info">
                             <h4>Ahmad Prayoga</h4>
