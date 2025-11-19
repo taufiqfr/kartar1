@@ -82,7 +82,21 @@
         </div>
     </footer>
 
+    <!-- Background Music Player UI -->
+    <div id="music-player" class="music-player">
+        <div class="player-controls">
+            <button id="mute-btn" class="music-btn" title="Matikan musik">
+                <i class="fas fa-volume-up"></i>
+            </button>
+            <span class="music-label">Musik</span>
+            <input type="range" id="volume-slider" class="volume-slider" min="0" max="100" value="50">
+        </div>
+    </div>
+
     <!-- Vite JS -->
     @vite(['resources/js/app.js'])
+    
+    <!-- Global Music Player Script -->
+    <script src="{{ asset('js/music-player.js') }}"></script>
 </body>
 </html>
